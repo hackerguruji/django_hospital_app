@@ -29,7 +29,7 @@ def consultation(request):
             anesthesia = request.POST.get('anesthesia')
             estimate = request.POST.get('estimate')
             
-            #---- Check data for not selected options ---------edited by @KVP
+            #---- Check data for not selected options ---------edited by @Kishan Patel
             if (pain is None):
                 pain="NIL"
             
