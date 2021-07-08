@@ -24,9 +24,6 @@ class Form(models.Model):
     diagnosis=models.CharField(max_length=200 ,default='')
     estimate=models.CharField(max_length=122 ,default='')
 
-    
-
-
     def __str__(self):
         return self.name
 
